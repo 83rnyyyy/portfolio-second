@@ -1,0 +1,26 @@
+.container {
+    width: 800px;
+    margin: 0 auto; /* center */
+}
+
+/* Medium screens */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 600px;
+    }
+}
+
+/* Small screens / tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* use relative width for smaller screens */
+    }
+}
+
+/* Extra small screens / mobile */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0 10px; /* small padding */
+    }
+}

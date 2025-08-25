@@ -1,81 +1,64 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Teenage Theory",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "A publishing platform for teen writers to share their ideas and stories",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Teenage Theory is a web application inspired by Medium, designed to let users write, share, and discover articles.",
+      "Built using NextJs, MongoDB, Prisma, and Firebase.",
+      "It features user authentication, rich text editing, and an interactive feed of posts.",
+      "This project demonstrates skills in front-end development, database management, and user experience design."
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/teenagetheory.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "NextJS",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Prisma",
+        path: "/assets/logos/prisma.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "CSS",
+        path: "/assets/logos/css.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "VEX Robotics Program",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Competitive robotics program emphasizing engineering, programming, and teamwork.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Participated in the VEX Robotics Program, where I designed, built, and programmed robots for competitive challenges.",
+      "Gained experience in mechanical design, autonomous programming, and team collaboration, while competing in regional and national robotics events."
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/vex.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "C++",
+        path: "/assets/logos/cpp.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Richmond Green Secondary School Model UN Website",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
     subDescription: [
@@ -84,186 +67,96 @@ export const myProjects = [
       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
       "Integrated SQLite for efficient client-side database storage.",
     ],
-    href: "",
+    href: "https://rgssmunvi.com/",
+    
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/rgssmun.PNG",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "CSS",
+        path: "/assets/logos/css.svg",
       },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+      
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Automated Invoice Creator",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "Automated invoice creation tool with spreadsheet data import.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed an invoice generator in Python using PyQt for the interface and Pandas for data handling.",
+      "The tool imports spreadsheet data, automatically fills a customizable invoice template, and generates downloadable invoices.",
+      "This project highlights skills in GUI development, data parsing, template automation, and file export, offering a streamlined solution for quickly creating multiple invoices.",
     ],
-    href: "",
+    href: "https://github.com/83rnyyyy/Automated-Invoice-Creator",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/invoice.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "MoodFi",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A minimalistic, mood-responsive study environment featuring custom backgrounds, lofi music, real-time audio visualization, and integrated task management - designed to enhance focus and productivity through beautiful, adaptive aesthetics.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Transform your study sessions with Study Space, a beautiful minimalistic web application designed to create the perfect atmospheric environment for productivity and focus.",
+      "This aesthetic study companion adapts to your current mood and mental state, providing customized visual and audio experiences to enhance your concentration and learning."
     ],
-    href: "",
+    href: "https://www.moodfi.net/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/moodi.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
+        name: "HTML",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "CSS",
+        path: "/assets/logos/css.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      }
     ],
   },
+  
+  
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+  
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/bernie-liu-48a4062b6/",
     icon: "/assets/socials/linkedIn.svg",
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Lead Fullstack Developer & Founder",
+    job: "Teenage Theory",
+    date: "2025-Present",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "TeenageTheory is a blog platform built by teens for teens, providing a space to share perspectives, stories, and insights on life, learning, and technology.",
+      "As Founder and Lead Developer, I designed and developed the site from the ground up, focusing on accessibility, engaging UI, and content-driven features to foster a community for youth voices."
     ],
   },
   {
@@ -275,54 +168,31 @@ export const experiences = [
       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
     ],
   },
-];
-export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    title: "President",
+    job: "RGSS Computer Science Club",
+    date: "2023-Present",
+    contents: [
+      "As President of the RGSS Computer Science Club, I lead workshops, projects, and competitions that help students expand their technical skills in programming, algorithms, and software development.",
+      "I organize collaborative coding sessions and introduce members to modern tools and technologies, fostering a community of innovation and peer learning.",
+    ],
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    title: "President",
+    job: "RGSS Physics Club",
+    date: "2023-Present",
+    contents: [
+      "As President of the RGSS Physics Club, I design and lead experiments, challenges, and discussions to make physics engaging and practical.",
+      "The club provides students with opportunities to explore theoretical and applied concepts, prepare for competitions, and develop problem-solving skills through hands-on projects and peer collaboration.",
+    ]
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    title: "Vice-President of Logistics",
+    job: "RGSS Model United Nations",
+    date: "2023-Present",
+    contents: [
+      "As Vice-President of Logistics for RGSS Model UN, I coordinate events, manage delegate preparation, and oversee organizational tasks to ensure conferences run smoothly.",
+      "My role emphasizes teamwork, communication, and problem-solving, helping create a professional and impactful experience for all participants.",
+    ],
   },
 ];
