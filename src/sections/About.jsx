@@ -26,7 +26,7 @@ const About = () => {
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
-        <div className="grid-default-color grid-2">
+        {/* <div className="grid-default-color grid-2">
           <div
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
@@ -71,7 +71,7 @@ const About = () => {
               containerRef={grid2Container}
             />
           </div>
-        </div>
+        </div> */}
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
@@ -85,13 +85,13 @@ const About = () => {
           </figure>
         </div>
         {/* Grid 4 */}
-        <div className="grid-special-color grid-4">
+        <div className="grid-special-color grid-2">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <CopyEmailButton />
           </div>
         </div>
         {/* Grid 5 */}
-        <div className="grid-default-color grid-5">
+        <div className="grid-default-color grid-4">
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">

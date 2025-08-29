@@ -147,6 +147,11 @@ export const mySocials = [
     href: "https://www.linkedin.com/in/bernie-liu-48a4062b6/",
     icon: "/assets/socials/linkedIn.svg",
   },
+  {
+    name: "Github",
+    href: "https://github.com/83rnyyyy/",
+    icon: "/assets/socials/github.jpeg"
+  },
 ];
 
 export const experiences = [
