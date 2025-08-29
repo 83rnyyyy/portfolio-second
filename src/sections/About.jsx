@@ -87,9 +87,6 @@ const About = () => {
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">
-              Do you want to start a project together?
-            </p>
             <CopyEmailButton />
           </div>
         </div>
