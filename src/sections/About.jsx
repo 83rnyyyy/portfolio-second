@@ -85,13 +85,13 @@ const About = () => {
           </figure>
         </div>
         {/* Grid 4 */}
-        <div className="grid-special-color col-span-1 md:col-span-6">
+        <div className="grid-special-color grid-2">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <CopyEmailButton />
           </div>
         </div>
         {/* Grid 5 */}
-        <div className="grid-default-color grid-4">
+        <div className="grid-special-color col-span-1 md:col-span-6">
           <div className="z-10 size-full">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
