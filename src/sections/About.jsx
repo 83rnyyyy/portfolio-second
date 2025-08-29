@@ -92,7 +92,7 @@ const About = () => {
         </div>
         {/* Grid 5 */}
         <div className="grid-default-color grid-4">
-          <div className="z-10 w-[50%]">
+          <div className="z-10 size-full">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
               I specialize in a variety of languages, frameworks, and tools that
