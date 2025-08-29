@@ -12,10 +12,10 @@ const SpaceParticles = () => {
         window.particlesJS('particles-js', {
           particles: {
             number: {
-              value: 300,
+              value: 400, // Increased for larger area
               density: {
                 enable: true,
-                value_area: 800
+                value_area: 1000 // Increased density area
               }
             },
             color: {
@@ -120,13 +120,14 @@ const SpaceParticles = () => {
       id="particles-js" 
       ref={particlesRef}
       style={{
-        position: 'absolute',
+        position: 'fixed', // Changed from absolute to fixed
         top: 0,
         left: 0,
-        width: '100%',
-        height: '100%',
-        zIndex: 0,
-        background: 'linear-gradient(135deg, #0c0c0c 0%, #1a0033 25%, #000820 50%, #001122 75%, #000000 100%)'
+        width: '100vw',
+        height: '150vh', // Extended height beyond viewport
+        zIndex: -1, // Changed to -1 to stay behind all content
+        background: 'linear-gradient(135deg, #0c0c0c 0%, #1a0033 20%, #000820 40%, #001122 60%, #2d1b69 80%, #000000 100%)'
+        // Extended gradient with more purple tones
       }}
     />
   );
