@@ -85,7 +85,7 @@ const About = () => {
           </figure>
         </div>
         {/* Grid 4 */}
-        <div className="grid-special-color grid-2">
+        <div className="grid-special-color col-span-1 md:col-span-6">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <CopyEmailButton />
           </div>
