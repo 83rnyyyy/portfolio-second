@@ -120,7 +120,7 @@ const SpaceParticles = () => {
       id="particles-js" 
       ref={particlesRef}
       style={{
-        position: 'fixed', // Changed from absolute to fixed
+        position: 'absolute', // Changed from absolute to fixed
         top: 0,
         left: 0,
         width: '100vw',
