@@ -10,7 +10,7 @@ export const myProjects = [
       "It features user authentication, rich text editing, and an interactive feed of posts.",
       "This project demonstrates skills in front-end development, database management, and user experience design."
     ],
-    href: "teenagetheory.com",
+    href: "https://www.teenagetheory.com/",
     logo: "",
     image: "/assets/projects/teenagetheory.png",
     tags: [
